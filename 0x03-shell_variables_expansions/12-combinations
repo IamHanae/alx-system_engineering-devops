@@ -1,2 +1,3 @@
 #!/bin/bash
-$(printf "%2s" {a..z})
+printf "%.2s
+" {a..z}{a..z} | grep -v "oo"
